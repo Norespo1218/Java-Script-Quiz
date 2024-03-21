@@ -1,0 +1,298 @@
+<html>
+<head>
+    <title>Pearlyshells Quiz - Question 5</title>
+<link rel="icon" type="image/x-icon" href="Untitled_design-removebg-preview.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hello {
+            background: white;
+            width: 90%;
+            max-width: 600px;
+            margin: 100px auto 0;
+            border-radius: 30px;
+            padding: 30px;
+        }
+
+        .hello #p {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .loe {
+            padding: 20px 0;
+        }
+
+        .loe p {
+            font-size: 24px;
+            color: #000000;
+        }
+
+        .butones {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            background: white;
+            color: black;
+            font-weight: 500;
+            border: 1px solid #222;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.8s;
+        }
+
+        .butones:hover {
+            background: #D1D1D9;
+            color: black;
+        }
+
+        #next {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            background: #CCBDCF;
+            color: black;
+            font-weight: 500;
+            width: 100px;
+            border: 1px solid #222;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.5s;
+     display: none;
+        }
+
+#back {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            background: #CCBDCF;
+            color: black;
+            font-weight: 500;
+            width: 100px;
+            border: 1px solid #222;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.5s;
+     display: none;
+        }
+
+#home {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            background: #CCBDCF;
+            color: black;
+            font-weight: 500;
+            width: 100px;
+            border: 1px solid #222;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.5s;
+     display: none;
+        }
+
+        #next:hover {
+            background: #A68CAB;
+            color: black;
+        }
+
+        #home:hover {
+            background: #A68CAB;
+            color: black;
+        }
+
+        #back:hover {
+            background: #A68CAB;
+            color: black;
+        }
+.carlyes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #333; 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.carlyes:hover {
+  width: 200px;
+  background-color: #333; 
+}
+
+.carlyes nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carlyes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.carlyes li {
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.carlyes a {
+  display: flex;
+  text-decoration:none;
+  color: #fff;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  margin-top: 10px;
+}
+
+.carlyes a:last-child {
+  border-bottom: none;
+}
+
+.carlyes a:hover {
+  color: red;
+ padding: 20px;
+}
+
+.carlyes a .text {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.carlyes:hover a .text {
+  opacity: 1;
+}
+
+.carlyes a .text {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.carlyes a:hover .text {
+  font-size: 25px;
+}
+
+.carlyes a:hover .logo {
+  width: 100px;
+  height: auto;
+}
+
+.carlyes a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.carlyes a:hover:before {
+  width: 100%;
+}
+    </style>
+</head>
+<body background="bg.png">
+		<header class="carlyes">
+  <nav>
+    <ul>
+		
+      <li><a href="home.html"><span class="text">Home</span></a></li>
+      <li><a href="index.html"><span class="text">Quiz 1</span></a></li>
+      <li><a href="Edison Quiz Q1.html"><span class="text">Quiz 2</span></a></li>
+      <li><a href="welcomeabout.html"><span class="text">QUIZ 3</span></a></li>
+      <li><a href="aboutus.html"><span class="text">About Us</span></a></li>
+			<li><a href="https://classroom.google.com/u/1/c/NjIwNTc3MzA1NTMy"><span class="text">Grade Us</span></a></li>
+		 <li><a href="https://www.facebook.com/profile.php?id=100032057013136"><span class="text">Design by Carl</span></a></li>
+    </ul>
+  </nav>
+</header>
+<center>
+    <div class="hello">
+<img src="Untitled_design-removebg-preview.png" width="75px"><br>
+        <h1>The Official PEARLYSHELLS Quiz</h1>
+<div class="arr"> <b><p> All Rights Reserved 2024 | Copyright | <a href='https://www.facebook.com/edison.ramos.2844'>Edison Ramos</a></p></b><br><hr></div>
+
+        <div class="loe">
+            
+<img src="q5 photo.png" width="400px" style="border-radius:10px;"><br><br>
+            <p style="font-size:20px;">The section Pearl has attained many achievements this School Year 2023-2024. <b>What ranking is the section Pearl in Language Week Books Open Doors, Intramurals, and Foundation Day Cookfest?</b></p><br>
+                <button class="butones" onclick="wrong(this)" style="width:100%;">1st Place, 1st Place, 3rd Place</button>
+                <button class="butones" onclick="wrong(this)" style="width:100%;">2nd Place, 1st Place, 3rd Place</button>
+                <button class="butones" onclick="right(this)" style="width:100%;">2nd Place, 1st Place, 1st Place</button>
+                <button class="butones" onclick="wrong(this)" style="width:100%;">1st Place, 2nd Place, 1st Place</button>
+                <button class="butones" onclick="wrong(this)" style="width:100%;">1st Place, 3rd Place, 2nd Place</button>
+<br>
+
+
+<a href="Edison Quiz Q4.html"><button id="next">⬅️</button></a>
+<a href="Edison Quiz START.html"><button id="home">🏡</button></a>
+<a href="Edison Quiz END.html"><button id="back">🏁</button></a>
+
+<script>
+var correctSound = new Audio("omg_right.m4a"); 
+var wrongSound = new Audio("wrong.m4a"); 
+
+            function right(btn) {
+                btn.style.backgroundColor = "#5CED73";
+                alert('Correct! You earn a spectacular point to heaven dear! 😇');
+                correctSound.play();
+document.getElementById('next').style.display = 'inline-block'; 
+document.getElementById('home').style.display = 'inline-block'; 
+document.getElementById('back').style.display = 'inline-block'; 
+            }
+
+            function wrong(btn) {
+                btn.style.backgroundColor = "#FFA590";
+                alert('Wrong! Try again or else, he is going to... you know...😈');
+		wrongSound.play();
+document.getElementById('next').style.display = 'inline-block'; 
+document.getElementById('home').style.display = 'inline-block'; 
+document.getElementById('back').style.display = 'inline-block'; 
+            }
+
+        </script>   
+
+    </div>
+</center>
+<br><br><br><br><br>
+</body>
+</html>
+ 
+
+ 
