@@ -1,34 +1,62 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-<meta charset="utf-8">
-<title>Are you from Sci-High quiz</title>
-	<link rel="icon" href="sci high-modified.png" type="image/png" />
-	   <link rel="stylesheet" href="carlitodorito.css">
+  <meta charset="UTF-8">
+  <title>The Quiz's</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./style.css">
+
 </head>
-
 <body>
-	<div class="widget-wrap">
-		<a href="https://www.facebook.com/HCPSMScienceHS"> <h1>Are You A Scilinian?</h1></a>
+<body onload="displayQuote(); setTimeout(myFunction, 20000);">
+<center>  
+  <img src="https://www.logolynx.com/images/logolynx/fc/fc7e54569ba9b77284102311c35902ea.png" width="100%" >
+  <table>  
+    <tr>  
+ <a href="index.html" style="text-decoration:none"> <div id="big" class="big">
+   PLAY QUIZ 1
+</div></a>
+    </tr>
+    <tr>  
+   <a href="Edison Quiz START.html" style="text-decoration:none">  <div id="big2" class="big">
+   PLAY QUIZ 2
+	   </div></a>
+    </tr>
+    <tr>  
+       <a href="welcomeabout.html" style="text-decoration:none">  <div id="big3" class="big">
+  PLAY QUIZ 3
+      </div></a>
+		   </tr>
+    <br><br>
+    <tr>
+        <a id="about" class="small" href="aboutus.html" target="_blank">
+        About Us
+        </a>
+      <a style="opacity:0" >2</a>
+        <a id="grade" class="small" href="https://youtube.com/c/acemonkeyilium" target="_blank">
+        Grade Us!
+        </a>
+    </tr>
+	
+  </table>  
+	 <button id="play-button">CLICK THIS FIRST!</button>
+ <div class="subtitle" id="quote">My name is Carl but call me anytime!</div>
+</center>
 
-  <div id="yung choices"></div>
-	  <div class="bouncing-ball-container">
-  <img class="bouncing-ball" src="sci high-modified.png" alt="Bouncing Ball">
-</div>
-		 <div class="bouncing-ball-container2">
-  <img class="bouncing-ball2" src="sci high-modified.png" alt="Bouncing Ball">
-</div>
+ <script  src="./script.js"></script>
+    <script>
+	
+      function playSound() {
+        var audio = new Audio('George Michael - Careless Whisper (Official Video).mp3');
+        audio.play();
 
+      
+        var button = document.getElementById('play-button');
+        button.parentNode.removeChild(button);
+      }
 
-      <hr id="hr-bottom">
+      document.getElementById('play-button').onclick = playSound;
+		
+    </script>
 
-      <footer>
-       <a href="https://hcpsmshs-official.com/?page_id=160"><p id="sci">Click For More Information</p></a>
-		    <p>Copyright 2024 All Right Reserved By <a href="https://web.facebook.com/profile.php?id=100032057013136"> Carl Reyes</a></p>
-      </footer>
-    </div>
-
-  <script src="carl-bata-reyes.js"></script>
- 
 </body>
 </html>
